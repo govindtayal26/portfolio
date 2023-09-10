@@ -1,0 +1,94 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+      margin: 0;
+      padding: 0;
+  }
+  
+  /* Apply a background color and font style */
+  body {
+      background-color: #111;
+      font-family: Arial, sans-serif;
+      color: #fff;
+  }
+  
+  /* Style the header */
+  header {
+      background-color: #111;
+      padding: 20px 0;
+      border-bottom: 1px solid #333;
+  }
+  
+  nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+  }
+  
+  .logo img {
+      max-width: 100px;
+  }
+  
+  .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 20px;
+      font-weight: bold;
+  }
+  
+  /* Style the main content */
+  main {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 0 20px;
+  }
+  
+  .featured {
+      text-align: center;
+      padding: 40px 0;
+  }
+  
+  .featured h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+  }
+  
+  .featured p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+  }
+  
+  .watch-now {
+      background-color: #e50914;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  .watch-now:hover {
+      background-color: #ff0000;
+  }
+  
+  /* Style the categories section (you can add more styles for other sections) */
+  .categories {
+      margin-top: 40px;
+  }
+  
+  .categories h2 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+  }
+  
+  .category {
+      margin-bottom: 20px;
+  }
+  
+  .category h3 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+  }
